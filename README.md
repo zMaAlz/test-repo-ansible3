@@ -28,6 +28,7 @@ Example Playbook
 
 Пример использования:
 
+```yaml
   ---
   - name: Install vector
     hosts: all
@@ -41,7 +42,7 @@ Example Playbook
     hosts: lighthouse
     roles:
       - nginx-role
-
+```
 
 License
 -------
