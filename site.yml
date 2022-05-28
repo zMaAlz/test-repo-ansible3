@@ -62,6 +62,7 @@
         dest: /usr/share/nginx/html/
         single_branch: yes
         version: master
+        force: yes
     - name: Start nginx
       become: true
       ansible.builtin.service:

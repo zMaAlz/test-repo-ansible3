@@ -4,7 +4,7 @@ type = "stdin"
 [sinks.clickhouse]
 type = "clickhouse"
 inputs = ["in"]
-endpoint = "http://192.168.1.90:8123"
+endpoint = "http://51.250.92.102:8123"
 database = "logs"
 table = "alerts"
 skip_unknown_fields = true
