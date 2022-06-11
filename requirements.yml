@@ -9,6 +9,6 @@
   name: nginx-role
 - src: git@github.com:zMaAlz/vector-role.git
   scm: git
-  version: "1.0.0"
+  version: "v1.2.0"
   name: vector-role
    
